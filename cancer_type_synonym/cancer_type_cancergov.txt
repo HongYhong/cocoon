@@ -1,0 +1,176 @@
+acute lymphoblastic leukemia
+acute myeloid leukemia
+adolescents
+adrenocortical carcinoma
+aids-related cancers
+aids-related lymphoma
+aml
+anal cancer
+appendix cancer
+astrocytomas
+atypical teratoid rhabdoid tumor
+atypical teratoid/rhabdoid tumor
+basal cell carcinoma of the skin
+bile duct cancer
+bladder cancer
+bone cancer
+brain cancer
+brain tumors
+breast cancer
+bronchial tumors
+burkitt lymphoma
+cancers of childhood
+carcinoid tumor
+carcinoma of unknown primary
+cardiac tumors
+cervical cancer
+childhood cancer
+childhood central nervous system germ cell tumors
+childhood extracranial germ cell tumors
+childhood kidney tumors
+childhood laryngeal
+childhood rhabdomyosarcoma
+childhood vascular tumors
+cholangiocarcinoma
+chordoma, childhood
+chronic lymphocytic leukemia
+chronic myelogenous leukemia
+chronic myeloproliferative neoplasms
+cll
+cml
+cns embryonal tumor
+colorectal cancer
+craniopharyngioma
+cutaneous t-cell lymphoma
+dcis
+ductal carcinoma in situ
+embryonal tumors
+endometrial cancer
+ependymoma
+esophageal cancer
+esthesioneuroblastoma
+ewing sarcoma
+extragonadal germ cell tumor
+extragonadal germ cell tumors
+eye cancer
+fallopian tube cancer
+fibrous histiocytoma of bone
+gallbladder cancer
+gastric cancer
+gastric stomach cancer
+gastrointestinal
+gastrointestinal carcinoid tumor
+gastrointestinal carcinoid tumors
+gastrointestinal stromal tumors
+germ cell tumor
+germ cell tumors
+gestational trophoblastic disease
+gist
+hairy cell leukemia
+head and neck cancer
+head cancer
+heart cancer
+heart tumors
+hepatocellular cancer
+histiocytosis
+hodgkin lymphoma
+hypopharyngeal cancer
+intraocular melanoma
+islet cell tumors
+kaposi sarcoma
+kidney cancer
+langerhans cell
+langerhans cell histiocytosis
+laryngeal cancer
+leukemia
+lip and oral cavity cancer
+lip cancer
+liver cancer
+lung cancer
+lymphoma
+male breast cancer
+malignant fibrous histiocytoma
+medulloblastoma
+melanoma
+merkel cell carcinoma
+mesothelioma
+metastatic cancer
+metastatic squamous neck cancer
+midline tract carcinoma
+mouth cancer
+multiple endocrine neoplasia syndromes
+multiple myeloma
+mycosis fungoides
+myelodysplastic
+myelodysplastic syndromes
+myelogenous leukemia
+myeloid leukemia
+myeloproliferative neoplasms
+nasal cavity and paranasal sinus cancer
+nasal cavity cancer
+nasopharyngeal cancer
+neck cancer
+neuroblastoma
+non-hodgkin lymphoma
+non-small cell lung cancer
+occult primary
+oral cancer
+oral cavity cancer
+oropharyngeal cancer
+osteosarcoma
+ovarian cancer
+ovarian germ cell tumors
+pancreatic cancer
+pancreatic neuroendocrine tumors
+papillomatosis
+paraganglioma
+paranasal sinus
+parathyroid cancer
+penile cancer
+pharyngeal cancer
+pheochromocytoma
+pituitary tumor
+plasma cell neoplasm
+plasma cell neoplasms
+pleuropulmonary blastoma
+pregnancy and breast cancer
+primary central nervous system lymphoma
+primary cns lymphoma
+primary peritoneal cancer
+prostate cancer
+rare cancers of childhood
+rectal cancer
+recurrent cancer
+renal cell cancer
+retinoblastoma
+rhabdomyosarcoma
+salivary gland cancer
+sarcoma
+skin cancer
+small cell lung cancer
+small intestine cancer
+soft tissue sarcoma
+squamous cell carcinoma of the skin
+squamous neck cancer with occult primary
+stomach cancer
+sèzary syndrome
+sézary lymphoma
+sézary syndrome
+testicular cancer
+throat cancer
+thymoma and thymic carcinoma
+thyroid cancer
+tracheobronchial tumor
+tracheobronchial tumors
+transitional cell cancer of renal pelvis
+transitional cell cancer of the renal pelvis
+transitional cell cancer of the renal ureter
+transitional cell cancer of ureter
+undifferentiated pleomorphic sarcoma
+urethral cancer
+uterine cancer
+uterine sarcoma
+vaginal cancer
+vascular tumors
+vulvar cancer
+wilms tumor

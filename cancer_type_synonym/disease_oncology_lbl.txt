@@ -1,0 +1,480 @@
+acoustic neuroma
+acral lentiginous melanoma
+acute basophilic leukemia
+acute leukemia
+acute lymphoblastic leukemia
+acute myeloid leukemia
+acute promyelocytic leukemia
+adenosquamous lung carcinoma
+adrenal carcinoma
+adrenal gland pheochromocytoma
+adrenal neuroblastoma
+adrenocortical carcinoma
+adult acute lymphocytic leukemia
+adult spinal cord ependymoma
+adult t-cell leukemia
+alveolar rhabdomyosarcoma
+ampulla of vater carcinoma
+anaplastic astrocytoma
+anaplastic ependymoma
+anaplastic large cell lymphoma
+anaplastic oligodendroglioma
+anaplastic pleomorphic xanthoastrocytoma
+angiosarcoma
+anus adenocarcinoma
+appendix cancer
+appendix carcinoid tumor
+atypical chronic myeloid leukemia
+atypical teratoid rhabdoid tumor
+b-cell acute lymphoblastic leukemia
+b-cell adult acute lymphocytic leukemia
+b-cell lymphoma
+b-lymphoblastic leukemia/lymphoma
+b-lymphoblastic leukemia/lymphoma kmt2a rearranged
+b-lymphoblastic leukemia/lymphoma with bcr-abl1
+b-lymphoblastic leukemia/lymphoma with etv6-runx1
+b-lymphoblastic leukemia/lymphoma with hyperdiploidy
+b-lymphoblastic leukemia/lymphoma with hypodiploidy
+b-lymphoblastic leukemia/lymphoma with iamp21
+b-lymphoblastic leukemia/lymphoma with il3-igh
+b-lymphoblastic leukemia/lymphoma with tcf3-pbx1
+b-lymphoblastic leukemia/lymphoma, bcr-abl1–like
+barrett's adenocarcinoma
+basal cell carcinoma
+benign mesothelioma
+bile duct adenocarcinoma
+biliary tract cancer
+bladder carcinoma
+bladder urothelial carcinoma
+bladder urothelial papillary carcinoma
+bone chondrosarcoma
+bone epithelioid hemangioma
+bone giant cell tumor
+bone marrow cancer
+bone osteosarcoma
+bone squamous cell carcinoma
+brain cancer
+brain glioblastoma multiforme
+brain glioma
+brain oligodendroglioma
+brain stem medulloblastoma
+breast adenocarcinoma
+breast angiosarcoma
+breast cancer
+breast carcinoma
+breast ductal carcinoma
+breast lobular carcinoma
+breast secretory carcinoma
+bronchiolo-alveolar adenocarcinoma
+bronchus adenoma
+bronchus carcinoma
+bronchus mucoepidermoid carcinoma
+burkitt lymphoma
+cancer
+carcinoma
+carcinosarcoma
+cecum adenocarcinoma
+central nervous system childhood germ cell tumor
+central nervous system primitive neuroectodermal neoplasm
+cerebellar medulloblastoma
+cervical adenocarcinoma
+cervical cancer
+cervical endometrial stromal sarcoma
+cervical neuroblastoma
+cervical squamous cell carcinoma
+cervix carcinoma
+childhood acute lymphocytic leukemia
+childhood acute megakaryoblastic leukemia
+childhood acute myeloid leukemia
+childhood b-cell acute lymphoblastic leukemia
+childhood botryoid rhabdomyosarcoma
+childhood brain germinoma
+childhood brain meningioma
+childhood brain stem glioma
+childhood brain stem neoplasm
+childhood brainstem astrocytoma
+childhood central nervous system germinoma
+childhood central nervous system immature teratoma
+childhood central nervous system mixed germ cell tumor
+childhood central nervous system primitive neuroectodermal neoplasm
+childhood cerebellar astrocytic neoplasm
+childhood cerebellar neoplasm
+childhood cerebral astrocytoma
+childhood choriocarcinoma of the ovary
+childhood choriocarcinoma of the testis
+childhood choroid plexus cancer
+childhood embryonal testis carcinoma
+childhood endodermal sinus tumor
+childhood extraosseous osteosarcoma
+childhood germ cell brain tumor
+childhood immature teratoma of ovary
+childhood infratentorial neoplasm
+childhood intracortical osteosarcoma
+childhood kidney angiomyolipoma
+childhood kidney cancer
+childhood kidney cell carcinoma
+childhood leukemia
+childhood malignant hemangiopericytoma
+childhood malignant mesenchymoma
+childhood malignant schwannoma
+childhood mediastinal neurogenic tumor
+childhood medulloblastoma
+childhood multilocular cystic kidney neoplasm
+childhood oligodendroglioma
+childhood optic nerve glioma
+childhood optic tract astrocytoma
+childhood ovarian embryonal carcinoma
+childhood ovarian endodermal sinus tumor
+childhood parosteal osteogenic sarcoma
+childhood pilocytic astrocytoma
+childhood pleomorphic rhabdomyosarcoma
+childhood spinal cord tumor
+childhood t-cell acute lymphoblastic leukemia
+childhood teratocarcinoma of the testis
+childhood teratoma of the ovary
+childhood testicular mixed germ cell tumor
+childhood vagina botryoid rhabdomyosarcoma
+cholangiocarcinoma
+cholangiolocellular carcinoma
+chondroblastoma
+chondrosarcoma
+chordoma
+choroid plexus carcinoma
+chromophobe renal cell carcinoma
+chronic eosinophilic leukemia
+chronic leukemia
+chronic lymphocytic leukemia
+chronic myeloid leukemia
+chronic myelomonocytic leukemia
+chronic neutrophilic leukemia
+clear cell renal cell carcinoma
+clear cell sarcoma
+cll/sll
+colon adenocarcinoma
+colon cancer
+colon carcinoma
+colon mucinous adenocarcinoma
+colon signet ring adenocarcinoma
+colorectal adenocarcinoma
+colorectal cancer
+congenital fibrosarcoma
+core binding factor acute myeloid leukemia
+corpus callosum oligodendroglioma
+dermatofibrosarcoma protuberans
+desmoid tumor
+desmoplastic small round cell tumor
+differentiated thyroid gland carcinoma
+diffuse astrocytoma
+diffuse glioma, h3 g34 mutant
+diffuse large b-cell lymphoma
+diffuse midline glioma, h3 k27m-mutant
+endocervical adenocarcinoma
+endometrial adenocarcinoma
+endometrial cancer
+endometrial carcinoma
+endometrial hyperplasia
+endometrial serous adenocarcinoma
+endometrial stromal sarcoma
+endometrioid ovary carcinoma
+epithelioid inflammatory myofibroblastic sarcoma
+esophageal cancer
+esophageal carcinoma
+esophagus adenocarcinoma
+esophagus squamous cell carcinoma
+essential thrombocythemia
+estrogen-receptor negative breast cancer
+estrogen-receptor positive breast cancer
+ewing sarcoma
+ewing sarcoma of bone
+extra-adrenal pheochromocytoma
+extraskeletal myxoid chondrosarcoma
+fallopian tube carcinosarcoma
+female reproductive organ cancer
+fibrillary astrocytoma
+fibrolamellar carcinoma
+follicular lymphoma
+ganglioglioma
+gastric adenocarcinoma
+gastric adenosquamous carcinoma
+gastric gastrinoma
+gastroesophageal junction adenocarcinoma
+gastrointestinal carcinoma
+gastrointestinal neuroendocrine tumor
+gastrointestinal stromal tumor
+gastrointestinal system cancer
+glandular pattern ovarian yolk sac tumor
+glioblastoma
+glioblastoma proneural subtype
+glomus tumor
+granulosa cell tumor
+hairy cell leukemia
+head and neck cancer
+head and neck carcinoma
+head and neck squamous cell carcinoma
+hemangiopericytoma
+hematologic cancer
+hepatoblastoma
+hepatocellular carcinoma
+her2-receptor negative breast cancer
+her2-receptor positive breast cancer
+hereditary renal cell carcinoma
+high grade ependymoma
+high grade glioma
+histiocytic and dendritic cell cancer
+histiocytoma
+histone mutated tumor
+hodgkin's lymphoma
+hypopharynx cancer
+idh-mutant anaplastic astrocytoma
+idh-mutant glioblastoma
+idh-wildtype anaplastic astrocytoma
+idh-wildtype glioblastoma
+inflammatory breast carcinoma
+inflammatory myofibroblastic tumor
+intrahepatic cholangiocarcinoma
+invasive bladder transitional cell carcinoma
+invasive tubular breast carcinoma
+jejunal adenocarcinoma
+juvenile myelomonocytic leukemia
+juvenile polyposis syndrome
+kabuki syndrome
+kidney cancer
+langerhans cell sarcoma
+langerhans-cell histiocytosis
+large cell medulloblastoma
+large intestine adenocarcinoma
+laryngeal carcinoma
+laryngeal squamous cell carcinoma
+leiomyosarcoma
+leukemia
+liposarcoma
+liver cancer
+low grade glioma
+lung acinar adenocarcinoma
+lung adenocarcinoma
+lung cancer
+lung carcinoma
+lung combined type small cell adenocarcinoma
+lung large cell carcinoma
+lung mucoepidermoid carcinoma
+lung non-small cell carcinoma
+lung small cell carcinoma
+lung squamous cell carcinoma
+lymph node adenoid cystic carcinoma
+lymphoid leukemia
+lymphoma
+malignant anus melanoma
+malignant astrocytoma
+malignant childhood germ cell neoplasm
+malignant conjunctival melanoma
+malignant epithelioid hemangioendothelioma
+malignant exocrine pancreas neoplasm
+malignant mesothelioma
+malignant pediatric adrenal gland pheochromocytoma
+malignant peripheral nerve sheath tumor
+malignant pleural mesothelioma
+malt lymphoma
+mammary analogue secretory carcinoma
+mantle cell lymphoma
+marginal zone b-cell lymphoma
+mast cell neoplasm
+mature b-cell neoplasm
+mature t-cell and nk-cell lymphoma
+mature teratoma of the ovary
+mediastinum neuroblastoma
+medulloblastoma
+medulloblastoma non-wnt/non-shh
+medulloblastoma non-wnt/non-shh group 3
+medulloblastoma non-wnt/non-shh group 4
+medulloblastoma shh activated
+medulloblastoma shh activated and tp53 mutant
+medulloblastoma shh activated and tp53 wild-type
+medulloblastoma wnt activated
+melanoma
+melanoma in congenital melanocytic nevus
+meningioma
+merkel cell carcinoma
+mesenchymal chondrosarcoma
+middle ear squamous cell carcinoma
+mixed extragonadal germ cell cancer
+mixed fibrolamellar hepatocellular carcinoma
+mixed phenotype acute leukemia
+mixed testicular germ cell tumor
+mucinous adenocarcinoma
+mucosal melanoma
+multiple myeloma
+myelodysplastic syndrome
+myelofibrosis
+myeloid and lymphoid neoplasms with eosinophilia and abnormalities of pdgfra, pdgfrb, and fgfr1
+myeloid leukemia associated with down syndrome
+myeloid neoplasm
+myeloproliferative neoplasm
+myxoid liposarcoma
+nasal cavity squamous cell carcinoma
+nasal type extranodal nk/t-cell lymphoma
+nasopharynx carcinoma
+nephroblastoma
+neurilemmomatosis
+neuroblastoma
+neuroendocrine tumor
+neurofibroma
+nipple duct carcinoma
+nodular malignant melanoma
+nut midline carcinoma
+ocular melanoma
+olfactory groove meningioma
+oligodendroglioma
+oral squamous cell carcinoma
+oropharynx cancer
+osteosarcoma
+ovarian cancer
+ovarian carcinoma
+ovarian clear cell carcinoma
+ovarian cystadenocarcinoma
+ovarian endometrial cancer
+ovarian melanoma
+ovarian serous carcinoma
+ovarian serous cystadenocarcinoma
+ovarian sex-cord stromal tumor
+ovarian small cell carcinoma
+ovary epithelial cancer
+ovary serous adenocarcinoma
+pancreatic acinar cell adenocarcinoma
+pancreatic adenocarcinoma
+pancreatic cancer
+pancreatic carcinoma
+pancreatic ductal adenocarcinoma
+pancreatic ductal carcinoma
+pancreatic endocrine carcinoma
+pancreatic solid pseudopapillary carcinoma
+papillary adenocarcinoma
+papillary follicular thyroid adenocarcinoma
+papillary renal cell carcinoma
+paraganglioma
+parietal lobe ependymoma
+parotid gland adenoid cystic carcinoma
+pediatric angiosarcoma
+pediatric cerebral ependymoblastoma
+pediatric cns choriocarcinoma
+pediatric cns embryonal cell carcinoma
+pediatric ependymoma
+pediatric epithelioid sarcoma
+pediatric extraocular retinoblastoma
+pediatric fibrosarcoma
+pediatric germ cell cancer
+pediatric hepatocellular carcinoma
+pediatric infratentorial ependymoblastoma
+pediatric infratentorial ependymoma
+pediatric intraocular retinoblastoma
+pediatric leptomeningeal melanoma
+pediatric liposarcoma
+pediatric low-grade glioma
+pediatric lymphoma
+pediatric meningioma
+pediatric mesenchymal chondrosarcoma
+pediatric myxoid chondrosarcoma
+pediatric osteosarcoma
+pediatric ovarian dysgerminoma
+pediatric ovarian germ cell tumor
+pediatric supratentorial ependymoma
+pediatric testicular germ cell tumor
+penis carcinoma
+penis squamous cell carcinoma
+pericytoma with t(7;12)
+peripheral nerve sheath neoplasm
+peripheral t-cell lymphoma
+peritoneal mesothelioma
+pharynx squamous cell carcinoma
+pilocytic astrocytoma
+pilomyxoid astrocytoma
+pineoblastoma
+pleomorphic xanthoastrocytoma
+pleuropulmonary blastoma
+plexiform neurofibroma
+polycythemia vera
+prolymphocytic leukemia
+prostate adenocarcinoma
+prostate cancer
+prostate carcinoma
+pseudomyxoma peritonei
+pten hamartoma tumor syndrome
+rectum adenocarcinoma
+rectum cancer
+rela fusion-positive ependymoma
+renal carcinoma
+renal cell carcinoma
+renal pelvis transitional cell carcinoma
+renal wilms' tumor
+retinal cell cancer
+retinoblastoma
+retroperitoneal neuroblastoma
+rhabdoid cancer
+rhabdomyosarcoma
+sacrum chordoma
+salivary gland adenoid cystic carcinoma
+salivary gland cancer
+salivary gland carcinoma
+salivary gland mucinous adenocarcinoma
+sarcoma
+sarcomatoid carcinoma
+scrotum paget's disease
+sertoli-leydig cell tumor
+sezary's disease
+sinonasal undifferentiated carcinoma
+skin melanoma
+skin squamous cell carcinoma
+small intestine carcinoid neuroendocrine tumor
+small-cell carcinoma of the ovary of hypercalcemic type
+solitary fibrous tumor/hemangiopericytoma
+spinal cord ependymoma
+spindle cell intraocular melanoma
+spindle cell rhabdomyosarcoma
+spindle cell sarcoma
+spindle epithelial tumor with thymus-like differentiation tumor
+spitzoid melanoma
+squamous cell carcinoma
+stomach cancer
+stomach carcinoma
+striated muscle rhabdoid tumor
+sublingual gland adenoid cystic carcinoma
+synovial sarcoma
+systemic epstein-barr virus-positive t-cell lymphoma of childhood
+systemic mastocytosis
+t-cell acute lymphoblastic leukemia
+t-cell childhood lymphoblastic lymphoma
+t-cell large granular lymphocyte leukemia
+t-cell lymphoblastic leukemia/lymphoma
+tenosynovial giant cell tumor
+testicular germ cell cancer
+thymic carcinoma
+thymoma
+thymus squamous cell carcinoma
+thyroid gland adenocarcinoma
+thyroid gland anaplastic carcinoma
+thyroid gland cancer
+thyroid gland carcinoma
+thyroid gland follicular carcinoma
+thyroid gland hurthle cell carcinoma
+thyroid gland medullary carcinoma
+thyroid gland papillary carcinoma
+tonsil squamous cell carcinoma
+trachea mucoepidermoid carcinoma
+transient myeloproliferative syndrome
+transitional cell carcinoma
+triple-receptor negative breast cancer
+tuberous sclerosis
+ureter carcinoma
+ureter small cell carcinoma
+urinary bladder cancer
+uterine cancer
+uterine carcinosarcoma
+uterine corpus endometrial carcinoma
+uterine corpus endometrial stromal sarcoma
+uveal melanoma
+vagina sarcoma
+vaginal carcinoma
+vaginal endometrial stromal sarcoma
+vulva squamous cell carcinoma
+vulvar childhood botryoid-type embryonal rhabdomyosarcoma
+waldenstroem's macroglobulinemia
+yap1-mamld1 fusion-positive supratentorial ependymoma

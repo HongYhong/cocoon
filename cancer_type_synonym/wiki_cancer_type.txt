@@ -1,0 +1,150 @@
+acute biphenotypic leukemia
+acute eosinophilic leukemia
+acute lymphoblastic leukemia
+acute myeloid dendritic cell leukemia
+acute myeloid leukemia
+adrenocortical carcinoma
+aids-related cancers
+aids-related lymphoma
+anal cancer
+anaplastic large cell lymphoma
+angioimmunoblastic t-cell lymphoma
+appendix cancer
+astrocytoma
+b-cell prolymphocytic leukemia
+basal cell carcinoma
+bladder cancer
+brainstem glioma
+breast cancer
+bronchial adenomas
+burkitt's lymphoma
+carcinoid tumor
+carcinoids
+cerebellar astrocytoma
+cerebral astrocytoma
+cervical cancer
+cholangiocarcinoma
+chondrosarcoma
+chronic lymphocytic leukemia
+chronic myelogenous leukemia
+colon cancer
+cutaneous t-cell lymphoma
+dermatofibrosarcoma protuberans
+desmoplastic small round cell tumor
+diffuse large b-cell lymphoma
+ehe
+endocrine pancreas
+endometrial cancer
+ependymoma
+epithelioid hemangioendothelioma
+esophageal cancer
+ewing's sarcoma
+extragonadal germ cell tumor
+extrahepatic bile duct cancer
+follicular lymphoma
+gallbladder cancer
+gastric cancer
+gastrointestinal
+gastrointestinal carcinoid tumor
+gastrointestinal stromal tumor
+gestational trophoblastic tumor
+gist
+glioblastoma
+glioma
+hairy cell leukemia
+head and neck cancer
+heart cancer
+hepatocellular cancer
+hepatosplenic t-cell lymphoma
+hodgkin's lymphoma
+hypopharyngeal cancer
+hypothalamic glioma
+inflammatory breast cancer
+intravascular large b-cell lymphoma
+invasive cribriform carcinoma
+invasive lobular carcinoma
+islet cell carcinoma
+kaposi sarcoma
+large granular lymphocytic leukemia
+laryngeal cancer
+liposarcoma
+lymphomas of primary cutaneous origin
+lymphomatoid granulomatosis
+lymphoplasmacytic lymphoma
+male breast cancer
+malignant fibrous histiocytoma of bone
+mantle cell lymphoma
+marginal zone b-cell lymphoma
+mast cell leukemia
+mediastinal large b cell lymphoma
+medullary carcinoma
+medulloblastoma
+melanoma
+merkel cell carcinoma
+mesothelioma
+mucosa-associated lymphoid tissue lymphoma
+multiple endocrine neoplasia syndrome
+multiple myeloma
+mycosis fungoides
+myelodysplastic syndromes
+nasopharyngeal carcinoma
+neuroblastoma
+nodal marginal zone b cell lymphoma
+non-hodgkin lymphoma
+non-small cell lung cancer
+oligodendroglioma
+oral cancer
+oropharyngeal cancer
+osteosarcoma
+ovarian cancer
+ovarian epithelial cancer
+ovarian germ cell tumor
+pancreatic cancer
+paranasal sinus and nasal cavity cancer
+parathyroid cancer
+penile cancer
+pharyngeal cancer
+pheochromocytoma
+phyllodes tumor
+pilocytic astrocytoma
+pineal astrocytoma
+pituitary adenoma
+plasma cell neoplasm
+plasmablastic lymphoma
+pleuropulmonary blastoma
+precursor b lymphoblastic leukemia
+primary central nervous system lymphoma
+primary cutaneous follicular lymphoma
+primary cutaneous immunocytoma
+primary effusion lymphoma
+primitive neuroectodermal tumor
+prostate cancer
+rectal cancer
+renal cell carcinoma
+renal pelvis and ureter
+retinoblastoma
+rhabdomyosarcoma
+salivary gland cancer
+sarcomas of primary cutaneous origin
+sebaceous carcinoma
+skin adnexal tumors
+small cell lung cancer
+splenic marginal zone lymphoma
+squamous cell carcinoma
+stomach cancer
+surface epithelial-stromal tumor
+sézary syndrome
+t-cell prolymphocytic leukemia
+testicular cancer
+thymoma and thymic carcinoma
+thyroid cancer
+transitional cell cancer
+tubular carcinoma
+ureter and renal pelvis
+urethral cancer
+uterine sarcoma
+uveal melanoma
+vaginal cancer
+visual pathway
+vulvar cancer
+wilms tumor
