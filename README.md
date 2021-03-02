@@ -30,6 +30,8 @@ Search results:5623 items.
 
 And we download the results as xml and txt formats:` pmc_result_for_organoid_full_20210226.xml` and ` ` ` pmc_result_for_organoid_summary_20210226.txt`
 
+
+
 (3)Query used to search the pubmed database:
 
 ```sql
@@ -54,15 +56,15 @@ What we want to extract?
 
 (4) the accession number of the dataset
 
-(5)
+(5)...
 
-(6)
+(6)...
 
 
 
-How to extract the above informations:
+How to extract the above information:
 
-(1) search for some key words for omics data.(e.g. sra, eda, gse , geo , data availability ...). result:We get a list of matched article titles.
+(1) search for some key words for omics data.(e.g. sra, eda, gse , geo , data availability ...). result :we get a list of matched article titles.
 
 expected results:
 
@@ -72,9 +74,9 @@ expected results:
 
 
 
-(2) We use a list of key words about various cancer type to extract the tumor type information from abtract and body text using the xml file format.
+(2) We use a list of key words (**corpus**) about various cancer type to extract the tumor type information from abtsract and body text using the xml file format.
 
-We extract key words from three sources:
+We extract key words from three sources:` extract_disease_oncology.py` .
 
 (source 1) script1 used to extract tumor types key words from wiki.(https://en.wikipedia.org/wiki/List_of_cancer_types)
 
@@ -94,7 +96,7 @@ for element in elements:
     print ("".join(element.xpath('descendant-or-self::text()')))
 ```
 
-Manual curated the outputs. > the result file is ` wiki_cancer_type.txt`
+Manual curated the outputs. > the result file is ` wiki_cancer_type.txt` .
 
 
 
@@ -119,7 +121,17 @@ Manual curated the outputs. > the result file is ` cancer_type_cancergov.txt` .
 
 (source 3) (the data is from https://github.com/DiseaseOntology/HumanDiseaseOntology/blob/main/src/ontology/subsets/DO_cancer_slim.json)
 
+script used to extract key words.
+
 result : ` DO_cancer_slim.json`
+
+```shell
+cat cancer_type_cancergov.txt disease_oncology_lbl.txt disease_oncology_synonym.txt wiki_cancer_type.txt |sort|uniq > all_cancer_type_synonym.txt
+```
+
+We integrate three sources to one file: ` all_cancer_type_synonym.txt` .
+
+Total key words number: 1562.
 
 
 
