@@ -2,9 +2,15 @@
 
 ` author : yanhong hong`
 
-**COCOON**(**CO**lle**C**ti**O**ns of **O**rga**N**oid) or **CORGIDB** (**C**omprehensive **ORG**ano**I**d **D**ata**B**ase)
+**COCOON**(**CO**lle**C**tions **O**f **O**rga**N**oid)
 
-<img src="./cocoon-logo.png" alt="drawing" height="400"/>
+<img src="./static/cocoon-logo.png" alt="drawing" height="400"/>
+
+<img src="./static/whole_pipe_workflow.PNG" alt="drawing"/>
+
+
+
+## raw data
 
 (1)Query1 used to search the **pmc** database:
 
@@ -30,6 +36,12 @@ Search results:5623 items.
 
 And we download the results as xml and txt formats:` pmc_result_for_organoid_full_20210226.xml` and ` ` ` pmc_result_for_organoid_summary_20210226.txt`
 
+generate xml:  https://www.xmlviewer.org/
+
+Tree view of the xml file.
+
+![image-20210301224058894](./static/pmcxml_treeview.PNG)
+
 
 
 (3)Query used to search the pubmed database:
@@ -45,6 +57,14 @@ And we download the results as xml format: `pubmed_result_for_organoid_full_2021
 download the summery as txt format: ` pubmed_result_for_organoid_summary_20210225.txt` .
 
 
+
+(4)Patent data
+
+downloading.......
+
+
+
+## extract
 
 What we want to extract?
 
@@ -66,15 +86,66 @@ How to extract the above information:
 
 (1) search for some key words for omics data.(e.g. sra, eda, gse , geo , data availability ...). result :we get a list of matched article titles.
 
-expected results:
+We use script ` omics_extract.py` to rearrange the xml file to:
 
-```txt
-<article-title>	<omics-data link>
+```sql
+<article-pmid>	<the article element>
 ```
 
+the result files is ` pmc_result_for_organoid_full_pattern1_20210226.xml` 
+
+we use a list of key words about omics that we extract from the patterns of identities from different  omics repository from omicsdi (https://www.omicsdi.org/database)
+
+```
+#omics_keywords.txt
+gse[[:digit:]][[:digit:]]
+SRR[[:digit:]][[:digit:]]
+srx[[:digit:]][[:digit:]]
+srp[[:digit:]][[:digit:]]
+ST[[:digit:]][[:digit:]]
+PRJEB[[:digit:]][[:digit:]]
+ptjna[[:digit:]][[:digit:]]
+MTBLS[[:digit:]][[:digit:]]
+PAe[[:digit:]][[:digit:]]
+E-MTAB[[:digit:]][[:digit:]]
+oep[[:digit:]][[:digit:]]
+samea[[:digit:]][[:digit:]]
+fr-fcm[[:digit:]][[:digit:]]
+e-mtab-[[:digit:]][[:digit:]]
+oex[[:digit:]][[:digit:]]
+gpm[[:digit:]][[:digit:]]
+pxd[[:digit:]][[:digit:]]
+msv[[:digit:]][[:digit:]]
+ERR[[:digit:]][[:digit:]]
+erx[[:digit:]][[:digit:]]
+EGAD[[:digit:]][[:digit:]]
+LDG-[[:digit:]][[:digit:]]
+lds-[[:digit:]][[:digit:]]
+prd[[:digit:]][[:digit:]][[:digit:]]
+phs[[:digit:]][[:digit:]][[:digit:]]
+BIOMD[[:digit:]][[:digit:]][[:digit:]]
+MODEL[[:digit:]][[:digit:]][[:digit:]]
+S-BSST[[:digit:]][[:digit:]][[:digit:]]
+idr[[:digit:]][[:digit:]][[:digit:]]
+```
+
+```shell
+cat pmc_result_for_organoid_full_pattern1_20210226.xml |grep -i -E -f omics_keywords.txt
+```
+
+articles that match the omics pattern: ` pmc_result_for_organoid_full_pattern1_match_omics.txt`
+
+pmids of articles that match the omics pattern:
+
+we then extract lines(omics_extract.py) that matches patterns to ` pmc_result_for_organoid_full_pattern1_matchlines_20210226.xml` .
 
 
-(2) We use a list of key words (**corpus**) about various cancer type to extract the tumor type information from abtsract and body text using the xml file format.
+
+(2)
+
+![image-20210306192526047](./static/corpus_workflow.jpg)
+
+ We use a list of key words (**corpus**) about various cancer type to extract the tumor type information from abstract and body text using the xml file format.
 
 We extract key words from three sources:` extract_disease_oncology.py` .
 
@@ -136,6 +207,12 @@ Total key words number: 1562.
 
 
 e.g. remove redundancy, remove unwanted key words.
+
+
+
+files that generated during the pipeline.
+
+![image-20210306192526047](./static/workflow.jpg)
 
 
 
