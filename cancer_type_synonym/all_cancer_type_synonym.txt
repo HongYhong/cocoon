@@ -1,5 +1,5 @@
 acinar adenocarcinoma of the lung
-acml
+ acml 
 acoustic neuroma
 acral lentiginous melanoma
 acral lentiginous melanoma, malignant
@@ -83,11 +83,10 @@ agnogenic myeloid metaplasia
 aids-related cancers
 aids-related lymphoma
 aleukemic myelosis
-all
 alveolar childhood rhabdomyosarcoma
 alveolar rhabdomyosarcoma
-aml
-aml - acute myeloid leukemia
+ aml 
+acute myeloid leukemia
 ampulla of vater cancer
 ampulla of vater carcinoma
 ampullary carcinoma
@@ -113,6 +112,7 @@ astrocytoma of cerebrum
 astrocytomas
 astroglioma
 at/rt
+atypical teratoid rhabdoid tumor
 atypical chronic myeloid leukaemia
 atypical chronic myeloid leukaemia bcr-abl1 negative
 atypical chronic myeloid leukemia
@@ -168,7 +168,7 @@ basal cell carcinoma of skin
 basal cell carcinoma of the skin
 basal cell neoplasm
 basal cell tumor
-bc - bronchogenic carcinoma
+bronchogenic carcinoma
 benign glioma
 benign mesothelioma
 benign multilocular cystic renal tumor
@@ -229,21 +229,20 @@ bronchogenic lung adenocarcinoma
 bronchus adenoma
 bronchus carcinoma
 bronchus mucoepidermoid carcinoma
-bt - brain tumour
+brain tumour
 burkitt lymphoma
 burkitt lymphoma/leukaemia
 burkitt's lymphoma
 burkitt's tumor
 burkitt's tumor or lymphoma
 c11orf95 fusion-positive supratentorial ependymoma
-ca - cancer of uterus
+cancer of uterus
 ca body of pancreas
 ca head of pancreas
 ca liver - primary
 ca lower third oesophagus
 ca middle third oesophagus
 ca tail of pancreas
-cancer
 cancer of cervix
 cancer of esophagus
 cancer of larynx
@@ -256,7 +255,6 @@ cancer of the stomach
 cancers of childhood
 carcinoid tumor
 carcinoids
-carcinoma
 carcinoma cervix uteri
 carcinoma of ampulla of vater
 carcinoma of breast
@@ -433,10 +431,10 @@ clear cell sarcoma
 clear cell sarcoma of soft parts
 clear-cell metastatic renal cell carcinoma
 clear-cell ovarian carcinoma
-cll
+ cll 
 cll/sll
-cml
-cml - chronic myelogenous leukemia
+ cml 
+chronic myelogenous leukemia
 cmpd
 cmpd, u
 cns embryonal tumor
@@ -485,7 +483,7 @@ duct carcinoma
 ductal adenocarcinoma of the pancreas
 ductal carcinoma in situ
 ebv-positive t-cell lymphoproliferative disorder of childhood
-ehe
+ ehe 
 embryonal carcinoma of paediatric cns
 embryonal carcinoma of pediatric cns
 embryonal tumors
@@ -536,7 +534,7 @@ esophageal carcinoma
 esophagus adenocarcinoma
 esophagus cancer
 esophagus squamous cell carcinoma
-ess
+ ess 
 essential thrombocythaemia
 essential thrombocythemia
 esthesioneuroblastoma
@@ -581,7 +579,7 @@ follicular lymphoma
 follicular thyroid carcinoma
 gallbladder cancer
 ganglioglioma
-gant
+Gastrointestinal autonomic nerve tumors
 gastric adenocarcinoma
 gastric adenosquamous carcinoma
 gastric cancer
@@ -602,7 +600,7 @@ gastrointestinal stromal tumors
 gastrointestinal stromal tumour
 gastrointestinal system cancer
 gastrointestinal tract cancer
-gbm
+ gbm 
 germ cell neoplasm of the paediatric brain
 germ cell neoplasm of the pediatric brain
 germ cell tumor
@@ -620,7 +618,7 @@ giant cell tumor of tenosynovium
 giant cell tumour of bone
 giant cell tumour of tendon sheath
 giant cell tumour of tenosynovium
-gist
+Gastrointestinal stromal tumor
 glandular pattern ovarian yolk sac tumor
 glial cell tumor
 glioblastoma
@@ -690,7 +688,7 @@ histiocytosis
 histiocytosis x
 histone mutated tumor
 histone mutated tumour
-hl
+ hl 
 hodgkin disease
 hodgkin lymphoma
 hodgkin's lymphoma
@@ -738,7 +736,7 @@ kaposi sarcoma
 kidney cancer
 kidney carcinoma
 kidney chromophobe
-kms
+ kms 
 langerhan's cell histiocytosis
 langerhans cell
 langerhans cell granulomatosis
@@ -1007,7 +1005,7 @@ mixed testicular germ cell tumour
 mmmt
 mouth cancer
 mouth squamous cell carcinoma
-mst
+ mst 
 mucin-producing adenocarcinoma
 mucin-secreting adenocarcinoma
 mucin-secreting carcinoma
@@ -1026,9 +1024,7 @@ myelodysplastic syndrome
 myelodysplastic syndromes
 myelofibrosis
 myelogenous leukemia
-myeloid and lymphoid neoplasms with eosinophilia and abnormalities of pdgfra, pdgfrb, and fgfr1
-myeloid and lymphoid neoplasms with eosinophilia and abnormalities of platelet-derived growth factor receptor alpha (pdgfra), platelet-derived growth factor receptor beta (pdgfrb), and fibroblast growth factor receptor-1 (fgfr1) are a group of hematologic neoplasms
-myeloid and lymphoid neoplasms with eosinophilia and rearrangement of pdgfra, pdgfrb, or fgfr1, or with pcm1-jak2
+myeloid and lymphoid neoplasms
 myeloid leukemia
 myeloid leukemia associated with down syndrome
 myeloid leukemia, chronic
@@ -1069,7 +1065,7 @@ neuroendocrine neoplasm
 neuroendocrine tumor
 neurofibroma
 neuroglial tumor
-ngp - new growth of prostate
+new growth of prostate
 niikawa-kuroki syndrome
 nipple duct carcinoma
 nk-t cell lymphoma
@@ -1288,7 +1284,6 @@ pregnancy and breast cancer
 primary brain neoplasm
 primary brain tumor
 primary breast cancer
-primary cancer
 primary central nervous system lymphoma
 primary chondrosarcoma of the bone
 primary cns lymphoma
@@ -1320,9 +1315,9 @@ pseudomyxoma peritonei
 pseudomyxoma peritonei with unknown primary site
 pten hamartoma tumor syndrome
 rare cancers of childhood
-rb
+ rb 
 retinoblastoma
-rcc
+ rcc 
 rectal adenocarcinoma
 rectal cancer
 rectum adenocarcinoma
@@ -1450,7 +1445,7 @@ t-cell large granular lymphocyte leukemia
 t-cell leukemia
 t-cell lymphoblastic leukemia/lymphoma
 t-cell prolymphocytic leukemia
-tam
+ tam 
 tenosynovial giant cell tumor
 tenosynovial giant cell tumour
 testicular cancer
@@ -1560,4 +1555,5 @@ waldenstrom macroglobulinemia
 who grade ii astrocytoma
 wilms tumor
 wilms' tumoracute biphenotypic leukemia
-yap1-mamld1 fusion-positive supratentorial ependymomaintestinal carcinoid tumour
+fusion-positive supratentorial ependymoma
+intestinal carcinoid tumour
