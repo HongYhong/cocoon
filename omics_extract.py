@@ -77,6 +77,29 @@ class TextHandler(object):
                         outfile.write("{}\t{}\n".format(pmid,line))
         outfile.close()
 
+    def pmc_extract_omics_terms(self,pattern_file_path,outfile_path):
+        '''
+        use the output of the last function as the input of this function.
+        extract omics terms that match the omics patterns in the file.
+        '''
+        matchomics = []
+        outfile = open(outfile_path,'w')
+        lines = self.textfile.readlines()
+        with open(pattern_file_path,'r') as pattern_file:
+            patterns = pattern_file.readlines()
+        for line in lines:
+            pmid = line.split('\t')[0]
+            for pattern in patterns:
+                pattern = re.sub(r"\[\[:digit:\]\]",r"[0-9]",pattern).strip('\n')
+                for matchomic in re.findall(pattern,line,re.IGNORECASE):
+                    matchomics.append(matchomic)
+
+            outfile.write('{}\t{}\n'.format(pmid,matchomics))
+            matchomics = []
+        
+        outfile.close()
+
+
     def pubmed_extract_omics_cancer_terms(self,omics_pattern_file_path,cancername_pattern_file_path,outfile_path):
         '''
         extract words that match the omics patterns in the file.
@@ -105,6 +128,7 @@ class TextHandler(object):
             outfile.write('{}\t{}\t{}\n'.format(pmid,matchomics,matchcancers))
             matchomics=[]
             matchcancers=[]
+        outfile.close()
 
 
 
@@ -140,7 +164,7 @@ if __name__ == '__main__':
     # #xmlhandler.pmc_pattern_print('./pmc_result_for_organoid_full_pattern1_20210226.xml')
 
     # texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_20210226.xml')
-    # texthandler.pmc_extract_omics_lines('omics_keywords.txt','pmc_result_for_organoid_full_pattern1_lines_20210226.xml')
+    # texthandler.pmc_extract_omics_lines('omics_keywords.txt','pmc_result_for_organoid_full_pattern1_matchlines_20210226.xml')
 
     # num_lines = sum(1 for line in open('pmc_result_for_organoid_full_pattern1_match_omics.txt'))
     # pool = multiprocessing.Pool(8)
@@ -154,10 +178,23 @@ if __name__ == '__main__':
     # xmlhandler = XmlHandler('pubmed_result_for_organoid_summary.xml')
     # xmlhandler.pubmed_pattern_print('pubmed_result_for_organoid_summary_pattern1.xml')
 
-    texthandler = TextHandler('pubmed_result_for_organoid_summary_pattern1_match_omics.xml')
-    texthandler.pubmed_extract_omics_cancer_terms('omics_keywords_v2.txt','all_cancer_type_synonym.txt','pubmed_result_for_organoid_summary_pattern1_match_omics_cancer.xml')
+    # texthandler = TextHandler('pubmed_result_for_organoid_summary_pattern1_match_omics.xml')
+    # texthandler.pubmed_extract_omics_cancer_terms('omics_keywords_v2.txt','all_cancer_type_synonym.txt','pubmed_result_for_organoid_summary_pattern1_match_omics_cancer.xml')
 
+    # texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_20210226.xml')
+    # texthandler.pmc_extract_omics_lines('omics_keywords_v2.txt','pmc_result_for_organoid_full_pattern1_matchlines_v2.txt')
 
+    # num_lines = sum(1 for line in open('pmc_result_for_organoid_full_pattern1_match_omics_v2.txt'))
+    # pool = multiprocessing.Pool(10)
+    # for index in range(num_lines):
+    #     pool.apply_async(extract_cancer_lines,args=('pmc_result_for_organoid_full_pattern1_match_omics_v2.txt','all_cancer_type_synonym.txt','pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2.txt',index))
+    # print('Waiting for all subprocesses done...')
+    # pool.close()
+    # pool.join()
+    # print('All subprocesses done.')
+
+    texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_matchlines_v2.txt')
+    texthandler.pmc_extract_omics_terms('omics_keywords_v2.txt','pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2.txt')
 
 
 
