@@ -130,10 +130,14 @@ idr[[:digit:]][[:digit:]][[:digit:]]
 ```
 
 ```shell
-cat pmc_result_for_organoid_full_pattern1_20210226.xml |grep -i -E -f omics_keywords.txt
+cat pmc_result_for_organoid_full_pattern1_20210226.xml |grep -i -E -f omics_keywords.txt > pmc_result_for_organoid_full_pattern1_match_omics.txt
 ```
 
 articles that match the omics pattern: ` pmc_result_for_organoid_full_pattern1_match_omics.txt`
+
+```shell
+cat pmc_result_for_organoid_full_pattern1_20210226.xml |grep -i -E -f omics_keywords_v2.txt > pmc_result_for_organoid_full_pattern1_match_omics_v2.txt
+```
 
 pmids of articles that match the omics pattern:
 

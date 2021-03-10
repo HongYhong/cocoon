@@ -1,4 +1,5 @@
 import multiprocessing
+from os import close
 from typing import Text
 import xml.etree.ElementTree as ET
 from pprint import pprint
@@ -99,6 +100,77 @@ class TextHandler(object):
         
         outfile.close()
 
+    def pmc_omics_terms_merge(self,outfile_path):
+        '''
+        remove redundancy of  recodes in pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2.txt.
+        '''
+        outfile = open(outfile_path,'w')
+        omics_terms_set = set()
+        textfile = self.textfile
+        lines = textfile.readlines()
+        lastpmid = ''
+        for line in lines:
+            pmid = line.split('\t')[0]
+            omics_terms_list = ast.literal_eval(line.split('\t')[1].strip('\n'))
+            if pmid == lastpmid:
+                for omics_term in omics_terms_list:
+                    omics_terms_set.add(omics_term)
+            else:
+                outfile.write("{}\t{}\n".format(lastpmid,list(omics_terms_set)))
+                lastpmid = pmid
+                omics_terms_set.clear()
+                for omics_term in omics_terms_list:
+                    omics_terms_set.add(omics_term)
+
+        outfile.write("{}\t{}\n".format(lastpmid,list(omics_terms_set)))
+        outfile.close()
+
+    def pmc_extract_cancer_terms(self,patternfile_path,outfile_path):
+        '''
+        use the output of the function extract_cancer_lines to extract cancer terms.
+        '''
+        cancer_terms_set = set()
+        lastpmid = ''
+        index = 0
+        try:
+            textfile = self.textfile
+            patternfile = open(patternfile_path,'r')
+            outfile = open(outfile_path,'w')
+        except:
+            print("something went wrong while reading the files")
+            exit(-1)
+        
+        try:
+            patterns = patternfile.readlines()
+            lines = textfile.readlines()
+            for line in lines:
+                index += 1
+                print("processing line:{}".format(index))
+                pmid = line.split('\t')[0]
+                if pmid == lastpmid:
+                    for pattern in patterns:
+                        pattern = pattern.strip('\n')
+                        if re.search(pattern,line,re.IGNORECASE) is not None:
+                            cancer_terms_set.add(pattern)
+                else:
+                    outfile.write("{}\t{}\n".format(lastpmid,list(cancer_terms_set)))
+                    lastpmid = pmid
+                    cancer_terms_set.clear()
+                    for pattern in patterns:
+                        pattern = pattern.strip('\n')
+                        if re.search(pattern,line,re.IGNORECASE) is not None:
+                            cancer_terms_set.add(pattern)
+
+            outfile.write("{}\t{}\n".format(lastpmid,list(cancer_terms_set)))
+            
+                        
+        except:
+            print("extract_cancer_terms went wrong!")
+            exit(-1)
+        finally:
+            outfile.close()
+        
+
 
     def pubmed_extract_omics_cancer_terms(self,omics_pattern_file_path,cancername_pattern_file_path,outfile_path):
         '''
@@ -157,6 +229,8 @@ def extract_cancer_lines(textfile_path,pattern_file_path,outfile_path,index):
     outfile.close()
 
 
+                
+
 
 
 if __name__ == '__main__':
@@ -193,8 +267,17 @@ if __name__ == '__main__':
     # pool.join()
     # print('All subprocesses done.')
 
-    texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_matchlines_v2.txt')
-    texthandler.pmc_extract_omics_terms('omics_keywords_v2.txt','pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2.txt')
+    # texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_matchlines_v2.txt')
+    # texthandler.pmc_extract_omics_terms('omics_keywords_v2.txt','pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2.txt')
+
+    # texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2_clean.txt')
+    # texthandler.pmc_omics_terms_merge('pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2_clean_merge.txt')
+
+    texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2.txt')
+    texthandler.pmc_extract_cancer_terms('all_cancer_type_synonym.txt','pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2_cancerterms.txt')
+
+
+
 
 
 
