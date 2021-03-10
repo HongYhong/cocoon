@@ -10,6 +10,8 @@
 
 
 
+![image-20210306192526047](./static/cocoon_workflow.svg)
+
 ## raw data
 
 (1)Query1 used to search the **pmc** database:
@@ -215,8 +217,6 @@ e.g. remove redundancy, remove unwanted key words.
 
 
 files that generated during the pipeline.
-
-![image-20210306192526047](./static/workflow.jpg)
 
 
 
