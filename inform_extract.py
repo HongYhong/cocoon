@@ -264,6 +264,34 @@ def extract_cancer_lines(textfile_path,pattern_file_path,outfile_path,index):
     
     outfile.close()
 
+def merge_omicsterms_cancerterms(omicstermfile_path,cancertermfile_path,outfile_path):
+    '''
+    combine the omics term file with the cnacer term file.
+    '''
+    try:
+        omicstermfile = open(omicstermfile_path,'r')
+        cancertermfile = open(cancertermfile_path,'r')
+        outfile = open(outfile_path,'w')
+    except:
+        print("something went wrong while reading files")
+        exit(-1)
+    try:
+        omicstermfile_lines = omicstermfile.readlines()
+        cancertermfile_lines = cancertermfile.readlines()
+        for omicstermfile_line in omicstermfile_lines:
+            omicstermpmid = omicstermfile_line.split('\t')[0]
+            omicstermlist = ast.literal_eval(omicstermfile_line.split('\t')[1].strip('\n'))
+            for cancertermfile_line in cancertermfile_lines:
+                cancertermpmid = cancertermfile_line.split('\t')[0]
+                cancertermlist = ast.literal_eval(cancertermfile_line.split('\t')[1].strip('\n'))
+                if cancertermpmid == omicstermpmid:
+                    outfile.write("{}\t{}\t{}\n".format(cancertermpmid,omicstermlist,cancertermlist))
+
+    finally:
+        omicstermfile.close()
+        cancertermfile.close()
+        outfile.close()
+
 
                 
 
@@ -312,8 +340,10 @@ if __name__ == '__main__':
     # texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2.txt')
     # texthandler.pmc_extract_cancer_terms('all_cancer_type_synonym.txt','pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2_cancerterms.txt')
 
-    texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2_cancerterms.txt')
-    texthandler.pmc_cancerterms_sort_merge('pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2_cancerterms_merge.txt')
+    # texthandler = TextHandler('pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2_cancerterms.txt')
+    # texthandler.pmc_cancerterms_sort_merge('pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2_cancerterms_merge.txt')
+
+    merge_omicsterms_cancerterms('pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2_clean_merge.txt','pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2_cancerterms_merge.txt','pmc_result_for_organoid_full_pattern1_match_omics_cancer_v2_combine_omicsterm_cancerterm.txt')
 
 
 
