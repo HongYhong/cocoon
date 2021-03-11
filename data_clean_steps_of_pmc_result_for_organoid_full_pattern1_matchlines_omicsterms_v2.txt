@@ -4,31 +4,12 @@
 #
 ##################################################################################################
 
+(1)remove the first line of the file.
 
-
-
-remove the unwanted lines with ST(st) which usually appears as non-omics string information.
+(2)remove the unwanted lines with ST(st) which usually appears as non-omics string information.
 comm -1 -3 <(cat pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2.txt|grep     -i -E    "\[(.*?)st(.*?)\]"|grep -v  -i "[abcdefghijklmnopqruvwxyz]"|sort)\
  <(sort pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2.txt)
 
 
-manually substitute the dryad with the original accession.
+(3)manually substitute the dryad with the original accession.
 
- 
- 
- 
- 
- 
-get correct result of st omics dataset.
-cat pmc_result_for_organoid_full_pattern1_matchlines_omicsterms_v2.txt|grep    --color=always -i -E    "'st[[:digit:]][[:digit:]][[:digit:]][[:digit:]][[:digit:]][[:digit:]]'"
-
-32089736        ['ST000538', 'PXD012251']
-32089736        ['ST000538', 'PXD012251']
-31166966        ['ST000587', 'PXD013583']
-31166966        ['ST000587', 'PXD013583']
-31166966        ['ST000587', 'PXD013583']
-31166966        ['ST000587', 'PXD013583']
-31166966        ['ST000587', 'PXD013583']
-31166966        ['ST000587', 'PXD013583']
- 
- 
