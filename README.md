@@ -256,6 +256,8 @@ the pipeline to extract information of pubmed is almost the same as pmc,the fina
 
 （6）
 
+
+
 in progress....
 
 cases we need to consider include:
@@ -265,4 +267,6 @@ cases we need to consider include:
 (2) The omics data comes from public data just for validation of the results.(e.g. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7565382/)
 
 
+
+try: n grams method.
 
