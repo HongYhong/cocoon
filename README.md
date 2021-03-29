@@ -2,6 +2,8 @@
 
 ` author : yanhong hong`
 
+**a uncomplete work**
+
 **COCOON**(**CO**lle**C**tions **O**f **O**rga**N**oid)
 
 <img src="./static/cocoon-logo.png" alt="drawing" height="400"/>
